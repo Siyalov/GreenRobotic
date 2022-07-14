@@ -6,19 +6,51 @@
 </head>
 
 <body>
-   <header class="header__flex">
-      <img src="#" alt="" class="header__logo">
-      <div class="header__cont">
-         <a href="#" class="header__link">Контакты</a>
-         <button class="btn">Заказать</button>
+      <header class="header__flex">
+         <img src="#" alt="" class="header__logo">
+         <div class="header__cont">
+            <a href="#" class="header__link">Контакты</a>
+            <button class="btn">Заказать</button>
+         </div>
+       </header>
+      <div>
+         <h1>Оставьте свои Контакты
+
+         </h1>
+         <p>
+            Поможем подобрать модель. <br>
+            Выбрать удобный вариант доставки и установки.<br> 
+            Гарантия возврата денег. <br>
+         </p>
+         
+      </div>
+      <div>
+         <form class="form__">
+            <div class="form__group">
+              <label for="name">Ваше имя</label>
+              <input type="text" placeholder="Введите имя" id="name" class="form_input_style">
+            </div>
+            <div class="form__group">
+               <label for="email">Электронный адрес</label>
+               <input type="email" placeholder="***@yandex.ru" id="email" class="form_input_style">
+             </div>
+             <div class="form__group">
+               <label for="phone">Номер телефона</label>
+               <input type="phone" placeholder="7 (999) 999-99-99" id="phone" class="form_input_style">
+             </div>
+             <div class="form__group">
+               <label for="budget">Примерный бюджет</label>
+               <selection name="Примерный бюджет" id="budget"  class="form_input_style">
+                  <option value="10-30">10 000 - 30 000</option>
+                  <option value="60-100">60 000 - 100 000</option>
+                  <option value="100+">100 000</option>
+               </selection>
+             </div>
+             
+          </form>
       </div>
 
-   </header>
-   <section class="form">
-      <div class="form__containter">
-      </div>
-    </section>
-
+   
 </body>
 
 </html>
