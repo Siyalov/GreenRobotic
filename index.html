@@ -2,42 +2,42 @@
 <html lang="ru"></html>
 
 <head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+   content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Солнечные батареи GreenCorp</title>
-  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="style.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
-</head>
+  </head>
 
 <body>
-      <header class="header__flex">
-         <img src="/img/logo.svg" alt="" class="header__logo">
-         <div class="header__cont">
-            <a href="#" class="header__link">Контакты</a>
-            <button class="btn">Заказать</button>
-         </div>
-       </header>
+   <header class="header">
+      <img src="/img/logo.svg" alt="" class="header__logo">
+      <div class="header__cont">
+         <a href="#" class="header__link">Контакты</a>
+         <button class="btn">Заказать</button>
+      </div>
+      </header>
 
-       <section class="about">
+      <section class="about">
          <div class="about__info">
-           <h1>Солнечные панели GreenRobotic</h1>
-           <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-           <button>Узнать подробнее</button>
+            <h1>Солнечные панели GreenRobotic</h1>
+            <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
+            <button>Узнать подробнее</button>
          </div>
          <div class="about__images">
-           <img class="about__sun-image" src="img/sun.png">
-           <img class="about__image" src="img/solar-panel.png">
+            <img class="about__sun-image" src="img/sun.png">
+            <img class="about__image" src="img/solar-panel.png">
          </div>
-       </section>
+      </section>
 
-
-
-
-
-
+   
+   <section class="form">
       <div>
          <h1>Оставьте свои Контакты
-
+   
          </h1>
          <p>
             Поможем подобрать модель. <br>
@@ -46,34 +46,35 @@
          </p>
          
       </div>
-      <div>
-         <form class="form__container">
-            <div class="form__group">
-              <label for="name">Ваше имя</label>
-              <input type="text" placeholder="Введите имя" id="name" class="form_input_style">
+      <form class="form__container ">
+         <div class="form__group">
+            <label for="name">Ваше имя</label>
+            <input type="text" placeholder="Введите имя" id="name" class="form_input_style">
+         </div>
+         <div class="form__group">
+            <label for="email">Электронный адрес</label>
+            <input type="email" placeholder="***@yandex.ru" id="email" class="form_input_style">
             </div>
             <div class="form__group">
-               <label for="email">Электронный адрес</label>
-               <input type="email" placeholder="***@yandex.ru" id="email" class="form_input_style">
-             </div>
-             <div class="form__group">
-               <label for="phone">Номер телефона</label>
-               <input type="phone" placeholder="7 (999) 999-99-99" id="phone" class="form_input_style">
-             </div>
-             <div class="form__group">
-               <label for="budget">Примерный бюджет</label>
-               <selection name="Примерный бюджет" id="budget"  class="form_input_style">
-                  <option value="10-30">10 000 - 30 000</option>
-                  <option value="60-100">60 000 - 100 000</option>
-                  <option value="100+">100 000</option>
-               </selection>
-             </div>
-             <button type="submit" class="form__submit">
-               Отправить заявку
-            </button>
+            <label for="phone">Номер телефона</label>
+            <input type="phone" placeholder="7 (999) 999-99-99" id="phone" class="form_input_style">
+            </div>
+            <div class="form__group">
+            <label for="budget">Примерный бюджет</label>
+            <select name="Примерный бюджет" id="budget"  class="form_input_style">
+               <option value="10-30">10 000 - 30 000</option>
+               <option value="60-100">60 000 - 100 000</option>
+               <option value="100+">100 000</option>
+            </select>
+            </div>
+            <button type="submit" class="form__submit">
+            Отправить заявку
+         </button>
 
-          </form>
-      </div>
+         </form>
+      </<section>
+         
+    
 
    
 </body>
