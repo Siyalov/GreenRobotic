@@ -70,7 +70,7 @@ button {
 
 .btn:hover {
   background-color: #f6980c;
-    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    box-shadow: 0 16px 36px rgba(246 152 12 / 25%);
 }
 
 .about {
@@ -168,17 +168,17 @@ button {
 
  }
 
- .form input {
+ .form input, .form select  {
   font-size:18px;
   color: #213053;
   height: 60px;
-  padding: 0 0 20px 20px;
+  padding: 0 20px;
   border: none;
-
+  border-radius:15px;
+  outline: none;
  }
  
- .form select {
-
-
+ .form input:focus, .form select:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.484) ;
 
  }
