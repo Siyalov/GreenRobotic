@@ -227,3 +227,83 @@ footer {
    margin-bottom: 15px;
    
 }
+
+@media (max-width: 1024px) {
+
+  .about h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+     
+  .about__image {
+      width: 280px;
+  }   
+  .about__info {
+
+    max-width: 500px;
+  }
+  .about__images {
+
+    display: flex;
+  }
+
+  .about__sun-image {
+    width: 75px;
+    height: 75px;
+  
+  }
+
+}
+@media (max-width: 720px) {
+
+  h1{
+    font-size: 36px !important;
+    line-height: 40px;
+  }
+
+  .header__logo {
+    height: 20px;
+  }
+  header {
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+
+  footer {
+
+    padding: 50px 10px;
+  }
+
+  .about {
+      margin-top: 80px;
+   
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 50px 10px;
+   
+  
+  }
+  .about h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .form__container {
+    max-width: 550px;
+    width: 70%;
+  }
+
+  .footer__container {
+
+    flex-direction: column;
+  }
+  .footer__links a{
+    margin-bottom: 5px;
+
+  }
+}
+@media (max-width: 380px) {
+  .about__image {
+    width: 230px;
+
+}
