@@ -289,7 +289,31 @@ footer {
     margin-bottom: 5px; 
     
   }
+  .features {    
+    padding: 50px 10px;    
+  }
+  .cards {
+  grid-template-columns: auto
+  }
 }
+
+.features {
+  background-color: white;
+  padding: 115px 60px;
+}
+
+.cards {
+display: flex;
+justify-content: space-between;
+gap: 50px;
+}
+
+.card {
+padding: 35px 40px 25px  40px;
+border:  1px solid #D9E4E6;
+border-radius:  5px;
+}
+
 
 @media (max-width: 380px) 
   .about__image {
